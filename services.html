@@ -24,6 +24,9 @@
 
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -53,16 +56,16 @@
   </div>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html"> TM <span>FLOOR</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">TM <span>FLOOR</span> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav"
+        aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa fa-bars"></span> Menu
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item active"><a href="services.html" class="nav-link">Services</a></li>
+          <li class="nav-item active"><a href="services.html" class="nav-link">agency</a></li>
           <li class="nav-item"><a href="rooms.html" class="nav-link">Products</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -81,132 +84,86 @@
           <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i
                   class="fa fa-chevron-right"></i></a></span> <span>Services <i class="fa fa-chevron-right"></i></span>
           </p>
-          <h1 class="mb-0 bread">Services</h1>
+          <h1 class="mb-0 bread">Hệ Thống Cửa Hàng</h1>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="ftco-section bg-light">
+  <section class="ftco-section bg-light services">
+
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-          <div class="d-block services-wrap text-center">
-            <div class="img" style="background-image: url(images/services-1.jpg);"></div>
-            <div class="media-body py-4 px-3">
-              <h3 class="heading">Map Direction</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <p><a href="#" class="btn btn-primary">Read more</a></p>
-            </div>
+      <select class="form-select mb-4 p-2 rounded-pill services__select" aria-label="Default select example">
+        <option selected>Hệ Thống Cửa Hàng</option>
+        <option value="Hà Nội">Hà Nội</option>
+        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+        <option value="Đà Nẵng">Đà Nẵng</option>
+        <option value="Hải Phòng">Hải Phòng</option>
+        <!-- Thêm các tỉnh thành khác tùy vào nhu cầu của bạn -->
+      </select>
+
+      <div class="services__container">
+        <div class=" border p-3 services__item  bg-white ftco-animate ">
+          <p class="services__name mb-2">CH 98 Nguyễn Trãi - Quận 1 - HCM</p>
+          <p class="services__address mb-2"> Địa chỉ: 98 Nguyễn Trãi,P.Bến Thành, Quận 1, Hồ Chí Minh</p>
+          <p class="services__openTime mb-2">Giờ mở cửa: 08h00 - 22h00</p>
+          <p class="services__phone mb-2">Số điện thoại: 028.392.54368</p>
+          <div class="d-flex justify-content-end">
+            <a href="" class="text-uppercase">Xem chỉ đường <i class="fa-solid fa-share"></i></a>
           </div>
         </div>
-        <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-          <div class="d-block services-wrap text-center">
-            <div class="img" style="background-image: url(images/services-2.jpg);"></div>
-            <div class="media-body py-4 px-3">
-              <h3 class="heading">Accomodation Services</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <p><a href="#" class="btn btn-primary">Read more</a></p>
-            </div>
+        <div class=" border p-3 services__item  bg-white ftco-animate ">
+          <p class="services__name mb-2">CH 98 Nguyễn Trãi - Quận 1 - HCM</p>
+          <p class="services__address mb-2"> Địa chỉ: 98 Nguyễn Trãi,P.Bến Thành, Quận 1, Hồ Chí Minh</p>
+          <p class="services__openTime mb-2">Giờ mở cửa: 08h00 - 22h00</p>
+          <p class="services__phone mb-2">Số điện thoại: 028.392.54368</p>
+          <div class="d-flex justify-content-end">
+            <a href="" class="text-uppercase">Xem chỉ đường <i class="fa-solid fa-share"></i></a>
           </div>
         </div>
-        <div class="col-md-4 d-flex services align-self-stretch px-4 ftco-animate">
-          <div class="d-block services-wrap text-center">
-            <div class="img" style="background-image: url(images/services-3.jpg);"></div>
-            <div class="media-body py-4 px-3">
-              <h3 class="heading">Great Experience</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              <p><a href="#" class="btn btn-primary">Read more</a></p>
-            </div>
+        <div class=" border p-3 services__item  bg-white ftco-animate ">
+          <p class="services__name mb-2">CH 98 Nguyễn Trãi - Quận 1 - HCM</p>
+          <p class="services__address mb-2"> Địa chỉ: 98 Nguyễn Trãi,P.Bến Thành, Quận 1, Hồ Chí Minh</p>
+          <p class="services__openTime mb-2">Giờ mở cửa: 08h00 - 22h00</p>
+          <p class="services__phone mb-2">Số điện thoại: 028.392.54368</p>
+          <div class="d-flex justify-content-end">
+            <a href="" class="text-uppercase">Xem chỉ đường <i class="fa-solid fa-share"></i></a>
           </div>
         </div>
+        <div class=" border p-3 services__item  bg-white ftco-animate ">
+          <p class="services__name mb-2">CH 98 Nguyễn Trãi - Quận 1 - HCM</p>
+          <p class="services__address mb-2"> Địa chỉ: 98 Nguyễn Trãi,P.Bến Thành, Quận 1, Hồ Chí Minh</p>
+          <p class="services__openTime mb-2">Giờ mở cửa: 08h00 - 22h00</p>
+          <p class="services__phone mb-2">Số điện thoại: 028.392.54368</p>
+          <div class="d-flex justify-content-end">
+            <a href="" class="text-uppercase">Xem chỉ đường <i class="fa-solid fa-share"></i></a>
+          </div>
+        </div>
+        <div class=" border p-3 services__item  bg-white ftco-animate ">
+          <p class="services__name mb-2">CH 98 Nguyễn Trãi - Quận 1 - HCM</p>
+          <p class="services__address mb-2"> Địa chỉ: 98 Nguyễn Trãi,P.Bến Thành, Quận 1, Hồ Chí Minh</p>
+          <p class="services__openTime mb-2">Giờ mở cửa: 08h00 - 22h00</p>
+          <p class="services__phone mb-2">Số điện thoại: 028.392.54368</p>
+          <div class="d-flex justify-content-end">
+            <a href="" class="text-uppercase">Xem chỉ đường <i class="fa-solid fa-share"></i></a>
+          </div>
+        </div>
+        <div class=" border p-3 services__item  bg-white ftco-animate ">
+          <p class="services__name mb-2">CH 98 Nguyễn Trãi - Quận 1 - HCM</p>
+          <p class="services__address mb-2"> Địa chỉ: 98 Nguyễn Trãi,P.Bến Thành, Quận 1, Hồ Chí Minh</p>
+          <p class="services__openTime mb-2">Giờ mở cửa: 08h00 - 22h00</p>
+          <p class="services__phone mb-2">Số điện thoại: 028.392.54368</p>
+          <div class="d-flex justify-content-end">
+            <a href="" class="text-uppercase">Xem chỉ đường <i class="fa-solid fa-share"></i></a>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </section>
 
-  <section class="ftco-section bg-light ftco-no-pt">
-    <div class="container">
-      <div class="row no-gutters justify-content-center pb-5 mb-3">
-        <div class="col-md-7 heading-section text-center ftco-animate">
-          <h2>Amenities</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-diet"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Tea Coffee</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-workout"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Hot Showers</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-diet-1"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Laundry</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-first"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Air Conditioning</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-first"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Free Wifi</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-first"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Kitchen</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-first"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Ironing</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-        <div class="services-2 col-md-3 d-flex w-100 ftco-animate">
-          <div class="icon d-flex justify-content-center align-items-center">
-            <span class="flaticon-first"></span>
-          </div>
-          <div class="media-body pl-3">
-            <h3 class="heading">Lovkers</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <footer class="footer">
     <div class="container">

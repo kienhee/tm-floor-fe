@@ -9302,6 +9302,37 @@ h5,
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.services__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.services__item {
+  width: calc((100% - 20px) / 3);
+}
+@media screen and (max-width: 767px) {
+  .services__item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .services__item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+.services__select {
+  border: 1px solid #ec7021;
+  outline: #ec7021;
+  font-weight: 500;
+}
+.services__item:hover {
+  box-shadow: 0px 6px 24px 0px rgba(33, 33, 33, 0.28);
+}
+.services__name {
+  color: #ec7021;
+  font-size: 18px;
+  font-weight: 500;
+}
 .services .services-wrap {
   width: 100%;
   padding: 20px;
